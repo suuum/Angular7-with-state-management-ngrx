@@ -17,6 +17,10 @@ import { UsersComponent as UsersContainerComponent } from './containers/users/us
 import { UsersComponent } from './components/users/users.component';
 import { UserComponent } from './containers/user/user.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
+import { FootballClubService } from 'src/services/footballClub.service';
+import { FootballClubsComponent } from './containers/football-clubs/football-clubs.component';
+import { FootballClubComponent } from './containers/football-club/football-club.component';
+import { FootballClubDetailsComponent } from './components/football-club-details/football-club-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,10 @@ import { UserDetailsComponent } from './components/user-details/user-details.com
     UsersContainerComponent,
     UsersComponent,
     UserComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    FootballClubsComponent,
+    FootballClubComponent,
+    FootballClubDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +42,7 @@ import { UserDetailsComponent } from './components/user-details/user-details.com
     !environment.production ? StoreDevtoolsModule.instrument() : [],
     AppRoutingModule
   ],
-  providers: [UserService],
+  providers: [UserService, FootballClubService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

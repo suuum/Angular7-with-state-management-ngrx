@@ -1,0 +1,79 @@
+{
+    "footballClubs": [
+      {
+        "id": 1,
+        "name": "Jagielonia Białystok",
+        "league": "Ekstraklasa",
+        "players": [
+            {
+              "id": 1,
+              "name": "Luis Suarez",
+              "cardNumber": "XXXX-XXXX-XXXX-4321",
+              "cardType": "Visa"
+            },
+            {
+              "id": 2,
+              "name": "Lucas Torreira",
+              "cardNumber": "XXXX-XXXX-XXXX-1369",
+              "cardType": "Master"
+            },
+            {
+              "id": 3,
+              "name": "Edison Cavani",
+              "cardNumber": "XXXX-XXXX-XXXX-8888",
+              "cardType": "Visa"
+            }
+          ]
+      },
+      {
+        "id": 1,
+        "name": "Legia Warszawa",
+        "league": "Ekstraklasa",
+        "players": [
+            {
+              "id": 1,
+              "name": "Lamus Lamusowski",
+              "cardNumber": "XXXX-XXXX-XXXX-4321",
+              "cardType": "Visa"
+            },
+            {
+              "id": 2,
+              "name": "Stulej Stulejarski",
+              "cardNumber": "XXXX-XXXX-XXXX-1369",
+              "cardType": "Master"
+            },
+            {
+              "id": 3,
+              "name": "Głąb Głąbowski",
+              "cardNumber": "XXXX-XXXX-XXXX-8888",
+              "cardType": "Visa"
+            }
+          ]
+      },
+      {
+        "id": 3,
+        "name": "Pogoń Szczecin",
+        "league": "Ekstraklasa",
+        "players": [
+            {
+              "id": 1,
+              "name": "Andrzej Strejlał",
+              "cardNumber": "XXXX-XXXX-XXXX-4321",
+              "cardType": "Visa"
+            },
+            {
+              "id": 2,
+              "name": "Zibi Boniek",
+              "cardNumber": "XXXX-XXXX-XXXX-1369",
+              "cardType": "Master"
+            },
+            {
+              "id": 3,
+              "name": "Grosicki Kamil",
+              "cardNumber": "XXXX-XXXX-XXXX-8888",
+              "cardType": "Visa"
+            }
+          ]
+      }
+    ]
+  }
